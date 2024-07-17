@@ -13,8 +13,9 @@ Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`utilyre/barbecue.nvim`](https://github.com/utilyre/barbecue.nvim): top bar for managing code scope using the language server.
 
 ## Language Servers
-All language servers that I use daily are inside `lua/lsp/servers.lua`. For **Java**, I use a LSP Plugin called [`nvim-java`](https://github.com/nvim-java/nvim-java) that automatically setups everything for development with Java.
-- **Java** (jdtls)
+### List of LSPs enabled
+All language servers that I use daily are inside `lua/lsp/servers.lua`. For **Java**, I use a LSP Plugin called [`nvim-java`](https://github.com/nvim-java/nvim-java) that automatically setups everything for development with Java. You can always disable any of them by editing the servers file in `lua/lsp/servers.lua`.
+- **Java** (jdtls & [nvim-java](https://github.com/nvim-java/nvim-java))
 - **Rust** (rust_analyzer)
 - **Lua** (luals)
 - **TypeScript & JavaScript** (typescript-language-server)
@@ -24,10 +25,6 @@ All language servers that I use daily are inside `lua/lsp/servers.lua`. For **Ja
 - **Astro** (astro)
 - **Python** (pyright)
 - **Hyprlang** (hyprls)
-
-### List of LSPs enabled
-You can always disable any of them by editing the servers file in `lua/lsp/servers.lua`.
-
 
 ## Themes
 Some themes already included in my conf:
