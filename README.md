@@ -6,7 +6,7 @@ My neovim configuration with the plugins I use!
 ## Plugins
 Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`ms-jpq/coq_nvim`](https://github.com/ms-jpq/coq_nvim) : really fast autocomplete for neovim, compatible with LSPs.
-- [`nvim-neo-tree/neo-tree.lua`](https://github.com/nvim-neo-tree/neo-tree) : really good file explorer for neovim.
+- [`nvim-neo-tree/neo-tree.nvim`](https://github.com/nvim-neo-tree/neo-tree.nvim) : really good file explorer for neovim.
 - [`toppair/peek.nvim`](https://github.com/toppair/peek.nvim) : markdown live preview in browser with synchronized scrolling.
 - [`jiriks74/presence.nvim`](https://github.com/jiriks74/presence.nvim) : discord rich presence for **lazy.nvim**.
 - [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons) : developer icons for neovim.
