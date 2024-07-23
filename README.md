@@ -11,6 +11,7 @@ Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`jiriks74/presence.nvim`](https://github.com/jiriks74/presence.nvim) : discord rich presence for **lazy.nvim**.
 - [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons) : developer icons for neovim.
 - [`utilyre/barbecue.nvim`](https://github.com/utilyre/barbecue.nvim): top bar for managing code scope using the language server.
+- [`kdheepak/lazygit.nvim`](https://github.com/kdheepak/lazygit.nvim): super cool git plugin for neovim.
 
 ## Language Servers
 ### List of LSPs enabled
