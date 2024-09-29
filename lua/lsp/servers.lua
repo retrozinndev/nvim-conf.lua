@@ -1,43 +1,39 @@
 
 local lsp = require "lspconfig";
-local coq = require "coq";
 
 -- Java
-lsp.jdtls.setup(coq.lsp_ensure_capabilities({}))
+lsp.jdtls.setup{};
 
 -- Lua
-lsp.lua_ls.setup(coq.lsp_ensure_capabilities({}));
+lsp.lua_ls.setup{};
 
 -- TypeScript
-lsp.ts_ls.setup(coq.lsp_ensure_capabilities({}));
+lsp.ts_ls.setup{};
 
 -- CSS
-lsp.cssmodules_ls.setup(coq.lsp_ensure_capabilities({}));
-lsp.cssls.setup(coq.lsp_ensure_capabilities({}));
+lsp.cssmodules_ls.setup{};
+lsp.cssls.setup{};
 
 -- HTML
-lsp.html.setup(coq.lsp_ensure_capabilities({}));
+lsp.html.setup{};
 
 -- JSON
-lsp.jsonls.setup(coq.lsp_ensure_capabilities({}));
+lsp.jsonls.setup{};
 
 -- Astro
-lsp.astro.setup(coq.lsp_ensure_capabilities({}));
+lsp.astro.setup{};
 
 -- Rust
-lsp.rust_analyzer.setup(coq.lsp_ensure_capabilities({}));
+lsp.rust_analyzer.setup{};
 
 -- Python
-lsp.pyright.setup(coq.lsp_ensure_capabilities({}));
-
--- Hyprlang (Hyprland WM language)
-lsp.hyprls.setup(coq.lsp_ensure_capabilities({}));
+lsp.pyright.setup{};
 
 -- Bash (for bash scripts)
-lsp.bashls.setup(coq.lsp_ensure_capabilities({}));
+lsp.bashls.setup{};
 
 -- Emmet (For code abreviations e.g.: ´div>li*3´)
-lsp.emmet_language_server.setup(coq.lsp_ensure_capabilities({}));
+lsp.emmet_language_server.setup{};
 
 -- Tailwind CSS
-lsp.tailwindcss.setup(coq.lsp_ensure_capabilities({}));
+lsp.tailwindcss.setup{};
