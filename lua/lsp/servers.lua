@@ -9,9 +9,10 @@ lsp.jdtls.setup(coq.lsp_ensure_capabilities({}))
 lsp.lua_ls.setup(coq.lsp_ensure_capabilities({}));
 
 -- TypeScript
-lsp.tsserver.setup(coq.lsp_ensure_capabilities({}));
+lsp.ts_ls.setup(coq.lsp_ensure_capabilities({}));
 
 -- CSS
+lsp.cssmodules_ls.setup(coq.lsp_ensure_capabilities({}));
 lsp.cssls.setup(coq.lsp_ensure_capabilities({}));
 
 -- HTML
@@ -31,3 +32,12 @@ lsp.pyright.setup(coq.lsp_ensure_capabilities({}));
 
 -- Hyprlang (Hyprland WM language)
 lsp.hyprls.setup(coq.lsp_ensure_capabilities({}));
+
+-- Bash (for bash scripts)
+lsp.bashls.setup(coq.lsp_ensure_capabilities({}));
+
+-- Emmet (For code abreviations e.g.: ´div>li*3´)
+lsp.emmet_language_server.setup(coq.lsp_ensure_capabilities({}));
+
+-- Tailwind CSS
+lsp.tailwindcss.setup(coq.lsp_ensure_capabilities({}));
