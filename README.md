@@ -15,6 +15,7 @@ Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`utilyre/barbecue.nvim`](https://github.com/utilyre/barbecue.nvim): top bar for managing scope using the language server.
 - [`kdheepak/lazygit.nvim`](https://github.com/kdheepak/lazygit.nvim): super cool git plugin for neovim.
 - [`luckasRanarison/tailwind-tools.nvim`](https://github.com/luckasRanarison/tailwind-tools.nvim): tools for tailwind css.
+- [`folke/noice.nvim`](https://github.com/folke/noice.nvim): noice commandline ui
 
 ## Language Servers
 ### List of LSPs enabled
