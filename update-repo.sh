@@ -11,12 +11,14 @@ echo "[info] deleting current repo's configuration"
 rm -rf init.lua lua/
 
 echo "[info] copying user nvim configuration to current dir"
-cp -r $HOME/.config/nvim/* .
+cp -r $HOME/.config/nvim/* ./
 
 echo "[info] removing unnecessary files"
 rm -rf lazy-lock.json pack/
 
-printf "\n" && git status && printf "\n"
+if [[ -f /bin/git ]]; then
+    printf "Git Status:\n" && git status && printf "\n"
+fi
 
 echo "Done! Quitting script."
-exit 0;
+exit 0
