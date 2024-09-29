@@ -8,7 +8,6 @@ Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`neoclide/coc.nvim`](https://github.com/neoclide/coc.nvim) : really good autocompletion for neovim, install langs with `:CocInstall coc-{language}`
 - [`neo-tree.nvim`](https://github.com/nvim-neo-tree/neo-tree.nvim) : really good file explorer for neovim.
 - [`toppair/peek.nvim`](https://github.com/toppair/peek.nvim) : markdown live preview in browser with synchronized scrolling. (`deno` is needed)
-- 
 - [`startup.nvim`](https://github.com/nvim-startup/startup.nvim): startup screen for neovim.
 - [`telescope.nvim`](https://github.com/nvim-telescope/telescope.nvim): telescope for neovim.
 - [`IogaMaster/neocord`](https://github.com/IogaMaster/neocord) : amazing discord rich presence for neovim.
