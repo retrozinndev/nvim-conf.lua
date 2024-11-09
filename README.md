@@ -1,8 +1,9 @@
-# João's `.config/nvim`
+# retrozinn's `.config/nvim`
 My neovim configuration with the plugins I use!
-<br><br>
-**Plugin manager: [`lazy.nvim 💤`](https://lazy.folke.io)**
-<br><br>
+
+## Plugin Manager
+**[`lazy.nvim 💤`](https://lazy.folke.io)**
+
 ## Plugins
 Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`neoclide/coc.nvim`](https://github.com/neoclide/coc.nvim) : really good autocompletion for neovim, install langs with `:CocInstall coc-{language}`
@@ -18,24 +19,22 @@ Currently, I have been using the following plugins on my `lazy.nvim`:
 - [`folke/noice.nvim`](https://github.com/folke/noice.nvim): noice commandline ui
 
 ## Language Servers
-### List of LSPs enabled
-All language servers that I use daily are inside `lua/lsp/servers.lua`. For **Java**, I use a LSP Plugin called [`nvim-java`](https://github.com/nvim-java/nvim-java) that automatically setups everything for development with Java. You can always disable any of them by editing the servers file in `$CONFIG_DIR/lua/lsp/servers.lua`.
-- **Java** (jdtls & [`nvim-java`](https://github.com/nvim-java/nvim-java))
-- **Rust** (rust_analyzer)
-- **Lua** (luals)
-- **Bash/Sh** (bashls)
-- **Tailwind CSS** (tailwindcss)
-- **TypeScript & JavaScript** (ts_ls)
-- **CSS** (cssls, cssmodules_ls)
-- **HTML** (html)
-- **JSON** (json)
-- **Astro** (astro)
-- **Python** (pyright)
+### List of COC LSes
+These are the language servers I use on my coc config! For **Java**, I use a LSP Plugin called [`nvim-java`](https://github.com/nvim-java/nvim-java) that automatically setups everything for development with Java. You can always install/uninstall any of them by using `:CocInstall` or `:CocUninstall`.
+- **Java** (coc-java & [`nvim-java`](https://github.com/nvim-java/nvim-java))
+- **Rust** (coc-rust)
+- **Lua** (coc-lua)
+- **TypeScript & JavaScript** (coc-tsserver)
+- **CSS** (coc-css)
+- **HTML** (coc-html)
+- **JSON** (coc-json)
+- **Astro** (coc-astro)
+- **Python** (coc-pyright)
 
 ## Themes
 Some themes already included in my conf:
-- [`catppuccin-*`](https://github.com/catppuccin/nvim): the awesome catppuccin theme **(enabled)**
+- [`catppuccin`](https://github.com/catppuccin/nvim): the awesome catppuccin theme **(enabled)**
 - [`xiantang/darcula-dark.nvim`](https://github.com/xiantang/darcula-dark.nvim): jetbrains' darcula dark for neovim
 
-### Changing themes
-You can change the theme / colorscheme by editing the `init.lua` file, in the `vim.cmd.colorscheme` line, set the string to your preferred theme / flavor of theme.
+### Changing Themes (color schemes)
+You can change the colorscheme temporarily by running `:colorscheme {preference}`, or, for session persistent colorscheme, edit the `init.lua` file, in the `vim.cmd.colorscheme` line, set the string to your preferred scheme.
